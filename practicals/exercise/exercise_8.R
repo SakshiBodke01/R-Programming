@@ -1,4 +1,4 @@
-# 1. Build a regression model predicting Petal.Length from Sepal.Length in iris. ---
+# 1. Build a regression model predicting Petal.Length from Sepal.Length in iris. 
 model_q1 <- lm(Petal.Length ~ Sepal.Length, data = iris)
 
 print("--- Simple Regression Model Summary (Petal.Length ~ Sepal.Length) ---")
@@ -12,7 +12,7 @@ print("--- Multiple Regression Model Summary (mpg ~ wt + hp + drat) ---")
 print(summary(model_q2))
 cat("\n")
 
-# 3. Check the R^2 and Adjusted R^2 of the model in Q2. ---
+# 3. Check the R^2 and Adjusted R^2 of the model in Q2. 
 summary_q2 <- summary(model_q2)
 
 print("--- R-squared and Adjusted R-squared for Q2 Model ---")
