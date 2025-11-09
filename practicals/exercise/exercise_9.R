@@ -4,7 +4,7 @@ library(pROC)
 library(rpart)
 library(rpart.plot)
 
-# Q1: Build a logistic regression model predicting am (automatic/manual) in mtcars using hp and wt. ---
+# Q1: Build a logistic regression model predicting am (automatic/manual) in mtcars using hp and wt. 
 mtcars$am_factor <- factor(mtcars$am, labels = c("Automatic", "Manual"))
 logistic_model <- glm(am_factor ~ hp + wt, data = mtcars, family = "binomial")
 
