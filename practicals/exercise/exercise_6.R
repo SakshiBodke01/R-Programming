@@ -15,7 +15,7 @@ plot(mtcars$wt, mtcars$hp,
      pch = 19,
      col = "red")
 
-#  3. Draw a boxplot of Ozone values from the airquality dataset. ---
+#  3. Draw a boxplot of Ozone values from the airquality dataset.
 print("3. Boxplot of Ozone values (plotting...):")
 boxplot(airquality$Ozone,
         main = "Boxplot of Ozone Levels",
@@ -23,12 +23,12 @@ boxplot(airquality$Ozone,
         col = "lightgreen",
         na.rm = TRUE) # na.rm=TRUE handles missing (NA) values in the Ozone column
 
-#  4. Find the correlation between Sepal.Length and Sepal.Width in iris. ---
+#  4. Find the correlation between Sepal.Length and Sepal.Width in iris. 
 print("4. Correlation between Sepal.Length and Sepal.Width:")
 correlation_value <- cor(iris$Sepal.Length, iris$Sepal.Width)
 print(correlation_value)
 
-#  5. Create a pair plot of the first four columns of mtcars. ---
+#  5. Create a pair plot of the first four columns of mtcars. 
 print("5. Pair plot of the first four mtcars columns (plotting...):")
 pairs(mtcars[, 1:4],
       main = "Pair Plot of mtcars: mpg, cyl, disp, hp",
