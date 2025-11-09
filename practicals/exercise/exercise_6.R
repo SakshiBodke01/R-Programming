@@ -1,4 +1,4 @@
-#1. Create a histogram of mpg from the mtcars dataset. ---
+#1. Create a histogram of mpg from the mtcars dataset. 
 print("1. Histogram of mpg (plotting...):")
 hist(mtcars$mpg,
      main = "Histogram of Miles Per Gallon (MPG)",
@@ -6,7 +6,7 @@ hist(mtcars$mpg,
      col = "darkblue",
      border = "white")
 
-# 2. Generate a scatterplot of hp vs wt from mtcars. ---
+# 2. Generate a scatterplot of hp vs wt from mtcars. 
 print("2. Scatterplot of Horsepower (hp) vs Weight (wt) (plotting...):")
 plot(mtcars$wt, mtcars$hp,
      main = "Scatterplot: Horsepower vs. Weight",
